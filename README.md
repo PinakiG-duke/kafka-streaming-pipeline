@@ -6,6 +6,17 @@ A Kafka → Postgres → Streamlit system for real-time trip monitoring
 This project implements a complete real-time data engineering pipeline using Apache Kafka, PostgreSQL, and Streamlit.
 Originally built on an e-commerce order example, this customized version extends the system to the ride-sharing domain (e.g., Lyft/Uber-style trips) with synthetic live trip events streaming end-to-end through the system.
 
+## Producer Running
+![Producer Running](media/Producer_Screenshot.jpg)
+
+## Consumer Inserting Records
+![Consumer Running](media/Consumer_Screenshot.jpg)
+
+
+## Dashboard Demo Video
+[Click to view demo video](media/Ridesharing_Real_Time_Dashboard.webm)
+
+
 # Architecture Overview
 
 Synthetic Trip Generator (Producer)
